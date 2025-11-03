@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +11,7 @@
         html {
             scroll-behavior: smooth;
         }
-    
+
         html,
         body {
             margin: 0;
@@ -19,12 +20,15 @@
         }
     </style>
 </head>
+
 <body>
     <section class="w-full bg-[#000319] max-w-[1440px] mx-auto text-white relative ">
-        
+
         <!-- header -->
-        <header class=" fixed top-4  left-1/2 -translate-x-1/2  h-12 sm:h-17 w-[370px] sm:w-[451px] -translate-x-1 z-60">
-            <nav class="flex justify-evenly items-center bg-[#000319] capitalize text-[#C1C2D3] -tracking-wide [&_a]:text-[14px] 
+        <header
+            class=" fixed top-4  left-1/2 -translate-x-1/2  h-12 sm:h-17 w-[370px] sm:w-[451px] -translate-x-1 z-60">
+            <nav
+                class="flex justify-evenly items-center bg-[#000319] capitalize text-[#C1C2D3] -tracking-wide [&_a]:text-[14px] 
                                 sm:[&_a]:text-[16px] [&_a:hover]:text-white h-full w-full rounded-2xl border border-[#6971A2]">
                 <a href="#about">about</a>
                 <a href="#projects">projects</a>
@@ -32,6 +36,35 @@
                 <a href="#contact">contact</a>
             </nav>
         </header>
+
+        <!-- main -->
+        <main class="pt-[149px] lg:pt-[239px]">
+
+            <!-- hero section -->
+            <section class="flex flex-col w-full">
+                <div class="uppercase text-[12px] sm:text-[16px]  tracking-widest text-center text-[#E4ECFF]">
+                    <p>Dynamic Web Magic with Next.js</p>
+                </div>
+            
+                <div class="font-bold text-white text-center text-[48px] -tracking-wide sm:text-[72px]  leading-none py-5">
+                    <h2>Transforming Concepts into <br class=" hidden lg:block  "> Seamless <span class="text-purple-300"> User
+                            Experiences </span></h2>
+                </div>
+            
+                <div class="text-[#E4ECFF] text-center text-[16px] sm:text-[20px] lg:text-[24px] leading-normal ">
+                    <p>Hi! I’m Suheyb, a Next.js Developer based in Ethiopia.</p>
+                </div>
+            
+                <div class=" w-full h-full  flex items-center justify-center pt-4 ">
+                    <a class="flex justify-center items-center  gap-5 cursor-pointer  w-[360px] h-[59px] sm:w-[207px]
+                                            bg-gradient-to-r from-[#161A31] to-[#06091F]
+                                            sm:h-[66px] border border-[#6971A2] rounded-2xl text-white mx-auto" href="#">
+                        <button class="text-[16px] sm:text-[18px]">See my work</button>
+                        <img src="./public/arrow.svg" alt="">
+                    </a>
+                </div>
+            </section>
+        </main>
 
     </section>
 </body>
